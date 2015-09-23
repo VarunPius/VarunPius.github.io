@@ -3,11 +3,11 @@ html, body {
 	padding: 0;
 }
 body {
-	background-color: #1e2b58;
+	background-color: #000000;
 }
 section.title {
   display: block;
-  height: 100vh;
+  height: 45vh;
 }
 .title .intro {
 	position: relative;
@@ -32,6 +32,7 @@ section.title {
 	text-transform: uppercase;
 	margin: 35px;
 }
+
 .title .intro #icons {
 	list-style: none outside none;
 	margin: 5px 0 0 0;
@@ -54,7 +55,7 @@ section.title {
 }
 
 #icons li a {
-  background-color: #1e2b58;
+  background-color: #000000;
   color: #fff;
   display: inline-block;
   border-radius: 100%;
