@@ -7,7 +7,7 @@ body {
 }
 section.title {
   display: block;
-  height: 45vh;
+  height: 30vh;
 }
 .title .intro {
 	position: relative;
@@ -68,3 +68,5 @@ section.title {
   top: 0;
   width: 2.5em;
 }
+
+
