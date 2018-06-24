@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- saved from url=(1677)https://ad.atdmt.com/as/direct;p=11237202235195;as=11237202246209;a=11237202246207;crs=11237202246200;cr=11237202249764;i.ts=1456427648/juan_728x90.html?click=http://r.turn.com/r/tpclick/id/%7Ee1cXPadRHh-KD6ql9pW-vZlySxMfv02MAX5k4zTZden7nq3zpnb7D9Getxmaur_nFxWWpjg19F240Qk5IKaZ1gHGrdseqAeS0Phj8espVd-zGsu-XLxlcx8iO95NVpFMIuNL96E4ER4aDL7tnkycicnKE1PuD1bQJx3CiYJxtusSdpJpom5FobPsUFppGbfpRd2cEBkOg2htFuWVZg_6FD6f-XvuHPqfqfEAau6fzE-0ULqzlsac-JT3NC7c1xpf9Ub-4ZEAq-%2DCzm54i4fSX42o9R-il5DPJeSrrebCpC3WIG9a8a0DMlC6tq3O52_BIFWZaOH6JcWcTSK46Vi42EhCN21w_0YwnEMXcUSfCNPjVXMwB4ImDIL8ELTHTDqzLNJDwlb7-Az0XTBqA699ZG1ZGMx5mxUmtUj6WqSIDB-OobOh-_p3l0pz5zcW42BBLhtnAPtyN_jJmIIEMTGlzphjM1RMjdwqLxIW838CXwNTbqw1-nS4RyzjR75yvOjrI0xXP5M45oBf4g-FUcM0D_NO8VOB4RHtA6kFMdRwXcsu85krSvBrBBT_rDIVVw7MKMntoyrTrlbtPtKYFy4DYs1BrXkPQw2TB-ei4gKpGR5dFNmeA-izeVbC4gA58W0bPhRRrPByTqgotGF-iaQ3AIxkbhQB3jmRbOGqUzC3hzSw1Vl82UW6M8cpWteMYhArQEM4AMgoT3fow_o5a_lah14AR_gl9Lh5dbq34pyRQBrbq-i4hplBSmb4Umzh5hhIPDh2hkZLpHAW8MRTpEQZPm50QNs0-CxAjyLz3Z2YhpqQYQbt9rO2Kl-1gTBqcE3JfvoTuNyRb8gGQl8EsKKL_EZEO0EBW1YawBM89COJ1a6zvdbBRFVxmELhieUh-mLoB70qoFBov3xYwpp6e8miz5jtNqA9nB7ILRxT4JEUA4Q/3c/https%3A%2F%2Fadclick.g.doubleclick.net%2Faclk%3Fsa%3Dl%26ai%3DCcqpeflLPVqC6NZOM-QL5g5Fw6Jf4iQKQ2fr1lAHAjbcBEAEgAGDJ1quH3KPEEoIBF2NhLXB1Yi0zMzI4ODMyMTc5NjE0Njc3oAGM97n0A8gBCeACAKgDAaoEpgFP0IpEKRTkdZySbSZ01XsTsz5-LZNHQNnp7f8ta_WHPx6FIeiq5ziOD1AAYjyj5iBEIat9FV0K8d8Q54_QOJ9vtPIhFc1BMfaxB413YS-zW_W0I6wrw3p3K1WvZDqrlpINyldJpxHOjH5iGpVbCtS-ctBWp387HbDqn6DUJVoFARwzEdc-uyygF7JXdlQEKqlge01y-LHMDBZHkpXga-83TX3vQ_xd4AQBgAaZ59aJ4PLM5nqgBiHYBwA%26num%3D1%26sig%3DAOD64_2st2_Nj43jVQaXLNxXMpXKKm5JyA%26client%3Dca-pub-3328832179614677%26adurl%3D/url/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>juan_728x90</title>
+
+<script src="easeljs-0.8.1.min.js"></script>
+<script src="tweenjs-0.6.1.min.js"></script>
+<script src="movieclip-0.8.1.min.js"></script>
+<script src="preloadjs-0.6.1.min.js"></script>
+<script src="juan_728x90.js"></script>
+
+<script>
+var canvas, stage, exportRoot; 
+
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib.juan_728x90();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+	stage.enableMouseOver();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+</script>
+</head>
+
+<body onload="init();" style="background-color: rgb(255, 255, 255);" marginwidth="0" marginheight="0">
+	<a href="http://r.turn.com/r/tpclick/id/~e1cXPadRHh-KD6ql9pW-vZlySxMfv02MAX5k4zTZden7nq3zpnb7D9Getxmaur_nFxWWpjg19F240Qk5IKaZ1gHGrdseqAeS0Phj8espVd-zGsu-XLxlcx8iO95NVpFMIuNL96E4ER4aDL7tnkycicnKE1PuD1bQJx3CiYJxtusSdpJpom5FobPsUFppGbfpRd2cEBkOg2htFuWVZg_6FD6f-XvuHPqfqfEAau6fzE-0ULqzlsac-JT3NC7c1xpf9Ub-4ZEAq--Czm54i4fSX42o9R-il5DPJeSrrebCpC3WIG9a8a0DMlC6tq3O52_BIFWZaOH6JcWcTSK46Vi42EhCN21w_0YwnEMXcUSfCNPjVXMwB4ImDIL8ELTHTDqzLNJDwlb7-Az0XTBqA699ZG1ZGMx5mxUmtUj6WqSIDB-OobOh-_p3l0pz5zcW42BBLhtnAPtyN_jJmIIEMTGlzphjM1RMjdwqLxIW838CXwNTbqw1-nS4RyzjR75yvOjrI0xXP5M45oBf4g-FUcM0D_NO8VOB4RHtA6kFMdRwXcsu85krSvBrBBT_rDIVVw7MKMntoyrTrlbtPtKYFy4DYs1BrXkPQw2TB-ei4gKpGR5dFNmeA-izeVbC4gA58W0bPhRRrPByTqgotGF-iaQ3AIxkbhQB3jmRbOGqUzC3hzSw1Vl82UW6M8cpWteMYhArQEM4AMgoT3fow_o5a_lah14AR_gl9Lh5dbq34pyRQBrbq-i4hplBSmb4Umzh5hhIPDh2hkZLpHAW8MRTpEQZPm50QNs0-CxAjyLz3Z2YhpqQYQbt9rO2Kl-1gTBqcE3JfvoTuNyRb8gGQl8EsKKL_EZEO0EBW1YawBM89COJ1a6zvdbBRFVxmELhieUh-mLoB70qoFBov3xYwpp6e8miz5jtNqA9nB7ILRxT4JEUA4Q/3c/https://adclick.g.doubleclick.net/aclk?sa=l&amp;ai=CcqpeflLPVqC6NZOM-QL5g5Fw6Jf4iQKQ2fr1lAHAjbcBEAEgAGDJ1quH3KPEEoIBF2NhLXB1Yi0zMzI4ODMyMTc5NjE0Njc3oAGM97n0A8gBCeACAKgDAaoEpgFP0IpEKRTkdZySbSZ01XsTsz5-LZNHQNnp7f8ta_WHPx6FIeiq5ziOD1AAYjyj5iBEIat9FV0K8d8Q54_QOJ9vtPIhFc1BMfaxB413YS-zW_W0I6wrw3p3K1WvZDqrlpINyldJpxHOjH5iGpVbCtS-ctBWp387HbDqn6DUJVoFARwzEdc-uyygF7JXdlQEKqlge01y-LHMDBZHkpXga-83TX3vQ_xd4AQBgAaZ59aJ4PLM5nqgBiHYBwA&amp;num=1&amp;sig=AOD64_2st2_Nj43jVQaXLNxXMpXKKm5JyA&amp;client=ca-pub-3328832179614677&amp;adurl=/url/https://ad.atdmt.com/c/go;p=11237202235195;as=11237202246209;a=11237202246207;crs=11237202246200;cr=11237202249764;i.ts=1456427648" target="_blank">
+		<canvas id="canvas" width="728" height="90" style="background-color:#FFFFFF"></canvas>
+	</a>
+
+</body></html>
