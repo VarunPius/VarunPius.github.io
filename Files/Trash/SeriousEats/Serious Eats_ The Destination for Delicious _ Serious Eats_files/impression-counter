@@ -1,0 +1,14 @@
+var amazon_impression_url   = "www.assoc-amazon.com";
+
+var amazon_impression_campaign = '211189';
+var amazon_impression_ccmids =  {
+    'as2'  : '374929',
+    '-as2' : '9325',
+    'am2'  : '374925',
+    '-am2' : '9325',
+    'ur2'  : '9325'
+    };
+
+document.write("<scr"+"ipt src='http://" 
+    + amazon_impression_url 
+    + "/s/impression-counter-common.js' type='text/javascr"+"ipt'></scr"+"ipt>");
