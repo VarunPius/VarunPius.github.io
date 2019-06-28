@@ -84,7 +84,8 @@ section.title {
 
 section.preview {
   display: block;
-  background-color: #999999;
+  /* background-color: #999999; */
+  background-color: #4D505F;
   height: 50vh;
 }
 .content2 {
@@ -122,6 +123,7 @@ section.preview {
     margin: 20px 0;
 }
 .hero h3 {
+    color: #6DC7B5;
     margin: 0 0 20px;
     opacity: 0.4;
 }
@@ -162,7 +164,7 @@ section.preview {
 
 section.work {
   display: block;
-  background-color: #FFFFFF;
+  background-color: #EFEFEF;
   height: 100vh;
 }
 
@@ -205,7 +207,7 @@ section.work {
   margin-top: -6px;
   position: absolute;
   left: -84px;
-  border-radius: 32px;
+  border-radius: 20px;
   line-height: 64px;
   background: #FFF;
 }
@@ -214,10 +216,11 @@ section.work {
   color: inherit;
 }
 .resume > section > ul .icon img {
-  width: 44px;
+  width: 64px;
   padding: 0 10px;
   display: inline-block;
   vertical-align: middle;
+  float: inherit
 }
 .resume > section > ul .name {
   font-weight: 600;
